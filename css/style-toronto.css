@@ -85,7 +85,6 @@ header{
 .nav-bar-text-link nav li a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-    color: #ff0000;
 }
 .nav-bar-text-link-atual a{
     content: '';
