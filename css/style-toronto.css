@@ -101,39 +101,64 @@ header{
 
 main{
     width: 100%;
-    height: 90vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tudo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .conteudo{
-    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
     height: 100%;
     background-color: #c4c4c9;
     border-radius: 10px;
 }
 
 .conteudo-bolinha1{
-    padding: 1% 0 1% 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 5vh;
     align-items: center;
 }
-.conteudo-bolinha1-texto{
+.conteudo-bolinha1-texto h1{
     background-color: #fff;
-    width: 24%;
+    border-radius: 10px;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-bolinha2{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-bolinha2-conteudo-paragrafo1{
+    background-color: #fff;
+    width: 100%;
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    font-style: inherit;
-    font-size: 110%;
 }
-.conteudo-bolinha2{
+.conteudo-bolinha2-conteudo-paragrafo1-texto{
     width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
+}
+.conteudo-bolinha2-conteudo-paragrafo1-texto p{
+    font-style: inherit;
+    font-size: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .conteudo-bolinha2-conteudo-paragrafo1{
     width: 80%;
@@ -141,6 +166,9 @@ main{
     border-radius: 10px;
     font-size: 110%;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .conteudo-bolinha2-conteudo-conteudo1{
     width: 100%;
@@ -152,5 +180,51 @@ main{
     font-size: 20px;
 }
 .conteudo-bolinha2-conteudo-conteudo1-panorama h1{
-    margin-left: 20%;
+    margin-left: 25%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #c4c4c9;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: #c4c4c9;
+    border-radius: 10px;
+}
+.conteudo2-titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conteudo2-titulo h1{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.conteudo2-clima{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo2-clima p{
+    width: 95%;
+}
+.conteudo2-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteudo2-img img{
+    border-radius: 10px;
 }
