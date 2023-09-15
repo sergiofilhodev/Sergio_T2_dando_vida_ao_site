@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(52,63,172);
+    background: linear-gradient(90deg, rgba(52,63,172,1) 17%, rgba(103,85,240,1) 35%, rgba(76,74,170,1) 71%, rgba(52,52,138,1) 100%);
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+}
+.nav-bar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.534);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:absolute;
+}
+.nav-bar-icons{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar-icons-prin{
+    width: 50%;
+}
+.nav-bar-icons-prin img{
+    width: 30%;
+}
+.nav-bar-icons-github{
+    width: 50%;
+}
+.nav-bar-icons-github img{
+    width: 30%;
+}
+
+
+.nav-bar-text nav{
+    width: 50%;
+    height: 8vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-text-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar-text-link nav li a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    margin: 0px 100px 0px 0px;
+  }
+.nav-bar-text-link nav li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #ff0000;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s ease-in-out;
+}
+.nav-bar-text-link nav li a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.nav-bar-text-link-atual a{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #ff0000;
+    bottom: 0;
+    left: 0;
+    position: relative;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: #c4c4c9;
+    border-radius: 10px;
+}
+
+.conteudo-bolinha1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-bolinha1-texto h1{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-bolinha2{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-bolinha2-conteudo-paragrafo1{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.conteudo-bolinha2-conteudo-paragrafo1-texto{
+    width: 100%;
+}
+.conteudo-bolinha2-conteudo-paragrafo1-texto p{
+    font-style: inherit;
+    font-size: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conteudo-bolinha2-conteudo-paragrafo1{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    font-size: 110%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-bolinha2-conteudo-conteudo1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conteudo-bolinha2-conteudo-conteudo1-panorama{
+    width: 80%;
+    font-size: 20px;
+}
+.conteudo-bolinha2-conteudo-conteudo1-panorama h1{
+    margin-left: 25%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #c4c4c9;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: #c4c4c9;
+    border-radius: 10px;
+}
+.conteudo2-titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conteudo2-titulo h1{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.conteudo2-clima{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo2-clima p{
+    width: 95%;
+}
+.conteudo2-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conteudo2-img img{
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+}
+.conteudo2-img img:hover{
+    width: 300px;
+    height: 200px;
+    transition: 400ms;
+}
+
+.slider{
+    overflow: hidden;
+    width: 80%;
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100px;
+    transition: all 700ms ease;
+}
+.slider-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-1000%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-2000%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-3000%);
+}
+.slider > input:nth-child(5):checked ~ .slider-content{
+    transform: translateX(-4000%);
+}
+.slider > input:nth-child(6):checked ~ .slider-content{
+    transform: translateX(-5000%);
+}
+.slider > input:nth-child(7):checked ~ .slider-content{
+    transform: translateX(-6000%);
+}
+.slider > input:nth-child(8):checked ~ .slider-content{
+    transform: translateX(-7000%);
+}
