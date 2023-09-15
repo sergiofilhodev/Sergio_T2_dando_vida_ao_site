@@ -117,8 +117,9 @@ main{
     align-items: center;
     width: 80%;
     height: 100%;
-    background-color: #c4c4c9;
     border-radius: 10px;
+    background-color: #ffffff0c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .conteudo-bolinha1{
@@ -133,6 +134,7 @@ main{
     width: 110%;
     display: flex;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .conteudo-bolinha2{
@@ -174,6 +176,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 .conteudo-bolinha2-conteudo-conteudo1-panorama{
     width: 80%;
@@ -186,6 +189,7 @@ main{
     justify-content: center;
     border-radius: 10px;
     background-color: #c4c4c9;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .conteudo2{
@@ -196,6 +200,7 @@ main{
     height: 100%;
     background-color: #c4c4c9;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 .conteudo2-titulo{
     width: 100%;
@@ -208,6 +213,7 @@ main{
     justify-content: center;
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .conteudo2-clima{
     width: 100%;
